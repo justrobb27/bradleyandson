@@ -775,10 +775,10 @@ section,
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/construction/showcase-5.webp");
+  background-image: url("../img/hero/hero-bg.webp");
   background-size: cover;
   background-position: center;
-  opacity: 0.05;
+  opacity: 0.25;
   z-index: 0;
 }
 
