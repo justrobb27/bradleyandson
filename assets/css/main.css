@@ -778,7 +778,7 @@ section,
   background-image: url("../img/hero/hero-bg.webp");
   background-size: cover;
   background-position: center;
-  opacity: 0.25;
+  opacity: 0.10;
   z-index: 0;
 }
 
