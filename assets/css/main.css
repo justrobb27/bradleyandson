@@ -211,8 +211,10 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 42px;
+  max-height: 55px; /* Adjust this value as needed (e.g., 50px for subtler, 58px for max without overflow) */
   margin-right: 8px;
+  width: auto; /* Ensures proportional scaling */
+  height: auto; /* Keeps aspect ratio intact */
 }
 
 .header .logo h1 {
@@ -775,7 +777,7 @@ section,
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../img/hero/hero-bg.webp");
+  background-image: url("../img/hero/hero-bg2.webp");
   background-size: cover;
   background-position: center;
   opacity: 0.10;
@@ -794,7 +796,7 @@ section,
 .hero .hero-content .subtitle {
   display: inline-block;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 9px;/* 2/3 of 14px ≈ 9.33px; rounded down for crispness—bump to 10px if it feels too tiny on mobile */
   text-transform: uppercase;
   color: var(--accent-color);
   margin-bottom: 15px;
@@ -815,7 +817,7 @@ section,
 }
 
 .hero .hero-content h1 {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
   line-height: 1.2;
